@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario - El Periódico Digital</title>
+    <style>
+        body {
+            background-color: #e6f0fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .contenedor-formulario {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 25px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-formulario">
+        <h2><font face="Georgia" color="#000000">Suscripción al Periódico y Opinión</font></h2>
+        <hr color="#000000">
+        <br>
+        
+        <form action="" method="post">
+            <font face="Arial" size="2" color="#000000">
+                Ingresa tu nombre:<br>
+                <input type="text" name="nombre"><br><br>
+
+                Ingresa tu correo:<br>
+                <input type="email" name="correo"><br><br>
+
+                Selecciona tu país:<br>
+                <select name="pais">
+                    <option value="1">México</option>
+                    <option value="2">España</option>
+                    <option value="3">Argentina</option>
+                    <option value="4">Colombia</option>
+                </select><br><br>
+
+                Selecciona las secciones de tu interés:<br>
+                <input type="checkbox" name="interes1"> Noticias Internacionales<br>
+                <input type="checkbox" name="interes2"> Negocios<br>
+                <input type="checkbox" name="interes3"> Cultura<br><br>
+
+                Ingresa tus comentarios:<br>
+                <textarea name="comentarios" rows="5" cols="45"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </font>
+        </form>
+
+        <br><hr color="#cce0ff"><br>
+
+        <a href="index.html">
+            <button type="button">Volver a la Página Principal</button>
+        </a>
+    </div>
+
+</body>
+</html>
